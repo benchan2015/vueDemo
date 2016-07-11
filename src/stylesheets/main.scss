@@ -1,0 +1,9 @@
+    @function toRem($px) {
+        @return $px / 37.5px * 1rem;
+    }
+    .test{
+      width:toRem(600px);
+      height: toRem(600px);
+     
+      background: url(/images/demo.png) no-repeat;
+    }
